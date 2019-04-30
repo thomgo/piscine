@@ -22,6 +22,12 @@ A cette étape vous pouvez déja instancier un objet piscine basique en lui pass
 
 La fonction remplissage calcul le temps de remplissage de la piscine grâce aux attributs de l'objet et retourne ce résultat. A ce stade votre objet est fonctionnel et fait ce qu'on lui demande, il prend des valeurs et calcul un débit.
 
-Allons plus loin, créez une méthode pour afficher sur une page HTML toutes ces informations. Cette méthode affiche donc à l'écran la longueur, la largeur, la profondeur et le débit. Elle affiche également le temps de remplissage. En ce qui concerne l'affichage, vous pouvez faire quelque chose de très simple en mettant les informations simplement dans des paragraphes si vous le souhaitez. 
+Allons plus loin, créez une méthode pour afficher sur une page HTML toutes ces informations. Cette méthode affiche donc à l'écran la longueur, la largeur, la profondeur et le débit. Elle affiche également le temps de remplissage. En ce qui concerne l'affichage, vous pouvez faire quelque chose de très simple en mettant les informations simplement dans des paragraphes si vous le souhaitez.
 
-Astuce : la méthode pour afficher les informations devra faire appel à la méthode remplissage.  
+Astuce : la méthode pour afficher les informations devra faire appel à la méthode remplissage.
+
+# Pour aller plus loin
+
+Si vous souhaitez rendre votre application un peu plus fonctionnelle, pourquoi ne pas proposer à l'utilisateur un formulaire dans lequel il pourra indiquer les informations de sa piscine et lui afficher son temps de remplissage quand il clique sur le bouton de soumission ? Ainsi les valeurs de votre piscine pourront changer dès que l'utilisateur le souhaitera.
+
+Pour ce faire vous aurez sûrement besoin d'un nouvel objet, littéral cette fois, qui se chargera de récupérer les informations du formulaire et de générer la nouvelle piscine.
